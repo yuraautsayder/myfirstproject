@@ -1,3 +1,7 @@
 <h1>this home page</h1>
 
-{{greeting}}
+<form action="{% url 'reverse' %}">
+	<textarea cols="50" rows="10" name="usertext"></textarea>
+	<br>
+	<input type="submit" value="Reverse!">
+</form>
